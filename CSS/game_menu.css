@@ -1,0 +1,48 @@
+
+@font-face{
+	
+	font-family: "Droid Sans";
+    src: url(../Fonts/Droid_Sans/DroidSans.ttf);
+}
+
+@font-face{
+	
+	font-family: "Droid Sans";
+    src: url(../Fonts/Droid_Sans/DroidSans-Bold.ttf);
+	font-weight: bold;
+}
+
+*{
+	
+	font-family: "Droid Sans", "Arial";
+	text-align: center;
+}
+
+body{
+	
+	background-color: #003366;
+	margin: 1em 0 0 0;
+}
+
+button.menuOption{
+	
+	background-color: #003366;
+	border: .25em solid #336699;
+	color: #ffffff;
+	font-size: 24pt;
+	margin: .125em 0;
+	width: 100%;
+}
+
+button.menuOption:hover{
+	
+	background-color: #336699;
+	cursor: hand;
+	cursor: pointer;
+}
+
+#options{
+	
+	display: inline-block;
+	width: 30em;
+}
